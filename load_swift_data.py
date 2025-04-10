@@ -3,7 +3,7 @@ import pandas as pd
 
 df = pd.read_csv("SWIFT_CODES.csv")
 
-connection_string = "mongodb+srv://olgazegzda:<>@swift-codes.tfrawb6.mongodb.net/?retryWrites=true&w=majority&appName=SWIFT-codes"
+connection_string = "mongodb+srv://olgazegzda:swift1234@swift-codes.tfrawb6.mongodb.net/?retryWrites=true&w=majority&appName=SWIFT-codes"
 
 client = MongoClient(connection_string) #connecting to MongoDB
 db = client["swift_project"]
